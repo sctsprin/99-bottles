@@ -13,6 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        for var numberOfBottles = 99; numberOfBottles >= 0; --numberOfBottles  {
+            if numberOfBottles > 0 {
+                println("there are only \(numberOfBottles) bottles on the wall")
+                }
+            else {
+                println("there are no bottles on the wall")
+            }
+        }
+    
     }
 
     override func didReceiveMemoryWarning() {
